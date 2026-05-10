@@ -1,10 +1,6 @@
 # E-Commerce API — .NET Clean Architecture
 
-A **RESTful e-commerce API** built with ASP.NET Core following **Clean Architecture** principles, featuring product and category management with image handling — designed to pair with an Angular frontend.
-
-## What it does
-
-Provides backend API endpoints for an online store. Products and categories are managed through a layered architecture that cleanly separates API controllers, core business logic, and infrastructure/data access.
+A **RESTful e-commerce API** built with ASP.NET Core following **Clean Architecture** principles — featuring product and category management designed to pair with an Angular frontend.
 
 ## Tech Stack
 
@@ -33,11 +29,5 @@ Provides backend API endpoints for an online store. Products and categories are 
 ## Getting Started
 
 1. Set your connection string in `appsettings.json`.
-2. Apply migrations:
-   ```bash
-   dotnet ef database update --project Ecom.Infrastructure --startup-project Ecom.API
-   ```
-3. Run the API:
-   ```bash
-   dotnet run --project Ecom.API
-   ```
+2. Apply migrations: `dotnet ef database update --project Ecom.Infrastructure --startup-project Ecom.API`
+3. Run: `dotnet run --project Ecom.API`
